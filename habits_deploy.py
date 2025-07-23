@@ -50,4 +50,4 @@ with st.form("Student Form"):
 
     prediction = model.predict(input_data)
 
-    print(f'Student Performance is {prediction}')
+    st.success(f'Student Performance is {prediction}')
