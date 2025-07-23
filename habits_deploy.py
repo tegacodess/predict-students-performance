@@ -23,7 +23,7 @@ with st.form("Student Form"):
   part_time_job = st.selectbox("Does the Student Work Part-time?", ("Yes", "No"))
   diet_quality = st.selectbox('Students Diet Quality', ('Fair', 'Good', 'Poor'))
   internet_quality = st.select_slider("Internet Quality", ('Average', 'Poor', 'Good'))
-  extracurricular = st.selectbox("Does the Student Participate in Extra-curriculars?" ('No', "Yes"))
+  extracurricular = st.selectbox("Does the Student Participate in Extra-curriculars?", ('No', "Yes"))
   parents = st.select_slider("Parents Education Level",('Master', 'High School', 'Bachelor', 'None'))
 
 
