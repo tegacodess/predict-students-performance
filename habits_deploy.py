@@ -21,10 +21,10 @@ with st.form("Student Form"):
   mental_health_rating = st.number_input('Students Mental Health Rating', 0, 10, 7 )
   gender = st.selectbox("Students Gender", ("Male", "Female"))
   part_time_job = st.selectbox("Does the Student Work Part-time?", ("Yes", "No"))
-  diet_quality = st.selectbox('Students Diet Quality', ('Fair', 'Good', 'Poor'))
-  internet_quality = st.select_slider("Internet Quality", ('Average', 'Poor', 'Good'))
+  diet_quality = st.selectbox('Students Diet Quality', ('Good', 'Fair',  'Poor'))
+  internet_quality = st.select_slider("Internet Quality", ('Good',  'Average', 'Poor'))
   extracurricular = st.selectbox("Does the Student Participate in Extra-curriculars?", ('No', "Yes"))
-  parents = st.select_slider("Parents Education Level",('Master', 'High School', 'Bachelor', 'None'))
+  parents = st.select_slider("Parents Education Level",('Master', 'Bachelor', 'High School', 'None'))
 
 
 
